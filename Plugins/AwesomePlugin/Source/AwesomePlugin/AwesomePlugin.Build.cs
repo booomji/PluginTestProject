@@ -26,7 +26,9 @@ public class AwesomePlugin : ModuleRules
 			new string[]
 			{
 				"Core",
-				"AwesomePluginLibrary",
+                "CoreUObject", //added this from PrivateDependencyModuleNames below 
+                "Engine", //added this from PrivateDependencyModuleNames below
+                "AwesomePluginLibrary",
 				"Projects"
 				// ... add other public dependencies that you statically link with here ...
 			}
@@ -37,12 +39,17 @@ public class AwesomePlugin : ModuleRules
 			new string[]
 			{
 				// ... add private dependencies that you statically link with here ...	
-				"CoreUObject",
-                "Engine",
-                "Slate",
-                "SlateCore",
+				// THIS MAKES THE PROJECT WORK I.E DOSENT COMPLAIN ABOUT cant find GameFramework
+				
+				/*
+				 "CoreUObject",
+                "Engine"
+				"Slate",
+                "SlateCore", 
+				 */
+                
             }
-			);
+            );
 		
 		
 		DynamicallyLoadedModuleNames.AddRange(
