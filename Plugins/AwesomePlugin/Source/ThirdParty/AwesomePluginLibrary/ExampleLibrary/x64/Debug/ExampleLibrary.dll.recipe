@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\behram\UE5_dev\Linking_libraries\dynamic_3rd_party_inbuilt\PluginTestProject\Plugins\AwesomePlugin\Source\ThirdParty\AwesomePluginLibrary\x64\Debug\ExampleLibrary.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
