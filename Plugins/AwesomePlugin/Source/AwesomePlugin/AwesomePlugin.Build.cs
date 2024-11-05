@@ -37,7 +37,11 @@ public class AwesomePlugin : ModuleRules
 			new string[]
 			{
 				// ... add private dependencies that you statically link with here ...	
-			}
+				"CoreUObject",
+                "Engine",
+                "Slate",
+                "SlateCore",
+            }
 			);
 		
 		
