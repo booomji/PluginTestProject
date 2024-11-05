@@ -19,8 +19,9 @@ EXAMPLELIBRARY_EXPORT void ExampleLibraryFunction()
 #endif
 }
 
-EXAMPLELIBRARY_EXPORT float ExampleLibraryFunctionAdd()
+EXAMPLELIBRARY_EXPORT float ExampleLibraryFunctionAdd(float num1, float num2)
 {
-    return 10.0 + 10.0;
+    //return 10.0 + 10.0;
+    return num1 + num2;
 
 }

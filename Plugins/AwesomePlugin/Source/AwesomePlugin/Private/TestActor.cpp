@@ -16,6 +16,8 @@ ATestActor::ATestActor()
 void ATestActor::BeginPlay()
 {
 	Super::BeginPlay();
+	float test_num = ExampleLibraryFunctionAdd(50.0, 50.0 );
+	GEngine->AddOnScreenDebugMessage(-1, 10.0, FColor::White, FString::Printf(TEXT("adding numbers %f"), test_num));
 	
 }
 

@@ -7,4 +7,4 @@
 #endif
 
 EXAMPLELIBRARY_IMPORT void ExampleLibraryFunction();
-EXAMPLELIBRARY_IMPORT float ExampleLibraryFunctionAdd();
+EXAMPLELIBRARY_IMPORT float ExampleLibraryFunctionAdd(float num1,float num2 );

@@ -34,7 +34,7 @@ void FAwesomePluginModule::StartupModule()
 		// Some code that will be executed if dll was found
 		// Call the test function in the third party library that opens a message box
 		ExampleLibraryFunction();
-		ExampleLibraryFunctionAdd();
+		//ExampleLibraryFunctionAdd();
 	}
 	else
 	{
